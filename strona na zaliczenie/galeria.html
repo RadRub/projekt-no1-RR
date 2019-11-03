@@ -1,0 +1,82 @@
+<!DOCTYPE HTML> 
+<html lang='pl'> 
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'>
+	<title>wolne chwile tylko w górach!</title>
+	<link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+
+<div class='grid-container'>
+
+	<!-- header --> 
+	<header>
+		<img src="images/header.jpg" alt=""/>
+	</header>
+	
+	<aside>
+		<div class='menu-trigger'>Menu</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Strona Główna</a></li>			
+				<li><a href="doswiadczenie.html">Doświadczenie</a></li>
+				<li><a href="seodev.html">SEO & DEV</a></li>
+				<li><a href="przystanekalaska.html">Przystanek Alaska</a></li>
+				<li><a href="mojegory.html">Moje góry</a></li>
+				<li><a href="galeria.html">Galeria</a></li>					
+			</ul>
+		</nav>
+	</aside>
+
+	<tr>
+		<td height="625">
+		<table width="798" border="0" cellspacing="12">
+		<tr>
+			<td><a href="images/gory1.jpg">
+			<img src="images/gory1.jpg" width="250" height="188"></a></td>
+			<td><a href="images/gory2.jpg">
+			<img src="images/gory2.jpg" width="250" height="188"></a></td>
+			<td><a href="images/alaska1.jpg">
+			<img src="images/alaska1.jpg" width="250" height="188"></a></td>
+		</tr>
+		<tr>
+			<td>góry stołowe</td>
+			<td>góry stołowe</td>
+			<td>Alaska góry</td>
+		</tr>
+		<tr>
+			<td><a href="images/alaska2.jpg">
+			<img src="images/alaska2.jpg" width="250" height="188"></a></td>
+			<td><a href="images/seo1.jpg">
+			<img src="images/seo1.jpg" width="250" height="188"></a></td>
+			<td><a href="images/seo2.jpg">
+			<img src="images/seo2.jpg" width="250" height="188"></a></td>
+		</tr>
+		<tr>
+			<td>Widoki z Alaski</td>
+			<td>SEO schematy</td>
+			<td>Praca WEB - DEV</td>
+		</tr>
+		</table></td>
+		</tr>
+	</table>
+	
+	<footer>
+		<p>Zapraszam na mój Linkedin <a href="https://www.linkedin.com/in/rados%C5%82aw-rubi%C5%84ski-99058b13a/" target="_blank">Profil użytkownia R. Rubiński</a></p>
+	</footer>
+
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$(".menu-trigger").click(function(){
+			$('nav').slideToggle();
+		});
+	});
+</script>
+
+</body>
+</html>
